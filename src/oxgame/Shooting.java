@@ -27,6 +27,10 @@ public class Shooting extends Applet implements Runnable, KeyListener{
 	Image imgCharabullet;
 	Image imgEnemybullet;
 
+	  public static void main(String args[]){
+
+	  }
+
 	//������
 	public void init(){
 		for(int i = 0; i < enemy.length; i++){
